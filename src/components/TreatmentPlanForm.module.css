@@ -1,0 +1,152 @@
+.treatmentPlanForm {
+    padding: 20px;
+    space-around: 20px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .cardHeader {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cardTitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .inputBox {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+  }
+  
+  .readOnly {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  
+  .removeButton {
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .removeButton:hover {
+    background-color: #c82333;
+  }
+  
+  .addAnotherButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addAnotherButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .addDayButton {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addDayButton:hover {
+    background-color: #218838;
+  }
+  
+  .card p{
+      font-size: 14px;
+      color: #333;
+      line-height: 1.5;
+  }
+  .saveButton {
+    background-color: #2d68c4;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+    font-weight: 600;
+    margin: 1rem;
+    align-self: flex-start;
+  }
+  
+  .saveButton:hover {
+    background-color: #244e96;
+  }
+  

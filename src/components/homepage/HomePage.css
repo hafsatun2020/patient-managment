@@ -1,0 +1,256 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.logout-button {
+  background-color: #e53e3e;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.logout-button:hover {
+  background-color: #c53030;
+}
+
+.logout-icon {
+  margin-right: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.page-content {
+  padding: 1rem;
+}
+
+.patient-overview {
+  margin-bottom: 2rem;
+}
+
+.overview-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.overview-icon {
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.overview-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .overview-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+.overview-card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+.card-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+.patient-list-section {
+  margin-bottom: 2rem;
+}
+
+.list-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.list-icon {
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.list-toggle {
+  margin-bottom: 1rem;
+}
+
+.list-toggle-button {
+  background-color: #cbd5e0;
+  color: #4a5568;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  border: 1px solid #e2e8f0;
+  font-weight: 600;
+  outline: none;
+}
+
+.list-toggle-button:hover {
+  background-color: #a0aec0;
+}
+
+.patient-list {
+  margin-top: 1rem;
+}
+
+.patient-list-item {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.patient-list-item:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.patient-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.patient-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.patient-details {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+.new-patient-section {
+  margin-bottom: 2rem;
+}
+
+.new-patient-button {
+  background-color: #3182ce;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+.new-patient-button:hover {
+  background-color: #245e96;
+}
+
+.new-patient-icon {
+  margin-right: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.patient-details-section {
+  margin-bottom: 2rem;
+}
+
+.details-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1;
+  border-radius: 0.25rem;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.badge.admitted {
+  background-color: #6c757d;
+}
+
+.badge.discharged {
+  background-color: #28a745;
+}
+
+.badge.deceased {
+  background-color: #dc3545;
+}
+
+.badge.absconded {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.badge.cured {
+  background-color: #28a745;
+}
+
+.badge.remission {
+  background-color: #28a745;
+}
+
+.badge.unknown {
+  background-color: #6c757d;
+}
