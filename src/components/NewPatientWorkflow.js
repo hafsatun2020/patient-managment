@@ -1,8 +1,8 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import {TreatmentPlan} from './RenderTreatmentPlan'; // Import the components
 import  {PatientSearch} from './PatientSearch'; // Import the components
 import {PatientAdmission} from './PatientAdmission'; // Import the components
-
+import { Button } from '@mui/material';
 
 import mockPatientData from './mockPatientData'; // Import the mock patient data
 

@@ -1,5 +1,8 @@
 import React from 'react';
 import { TextField, Button, Grid, Typography, Box, FormControl } from '@mui/material';
+import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { styled } from '@mui/material/styles';
 
 // Styled Components
@@ -47,7 +50,6 @@ const TreatmentPlanFormUI = ({
     onSave,
     isEditing
 }) => {
-    const safeDays = days || [];
     return (
         <form onSubmit={onSave}>
             <Typography variant="h1" component="h1" sx={{ mb: 2 }}>

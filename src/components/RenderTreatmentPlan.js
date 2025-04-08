@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Button } from '@mui/material';
+import { Button, TextField, Table, TableBody, TableCell, TableHead, TableRow, Paper } from '@mui/material';
 import TreatmentPlanFormLogic from './TreatmentPlanFormLogic'; // Import the TreatmentPlanFormLogic
 
 // Mock API functions (Replace with your actual API calls)
