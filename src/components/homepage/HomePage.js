@@ -66,8 +66,10 @@ const HomePage = () => {
 
    return (
        <div className="home-container">
+                   <h1 className="header-title">Chemotherapy Management system</h1>
+
            <div className="header">
-               <h1 className="header-title">Welcome, {userRole}!</h1>
+               <h2 className="header-title">Welcome, {userRole}!</h2>
                <button onClick={handleLogout} className="logout-button">
                    <LogOut className="logout-icon" /> Logout
                </button>
