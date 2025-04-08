@@ -41,8 +41,6 @@ const LoginPage = ({ onLogin }) => {
 
   return (
     <div className="login-container">
-                 <h1 className="header-title">Chemotherapy Management system</h1>
-
       <div className="login-card">
         <h2 className="login-title">Login</h2>
         <p className="login-description">Enter your credentials to access the system.</p>
