@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import { format, isValid } from 'date-fns';
 import './EPatient.css'; // Import CSS
 import mockPatientData from './mockPatientData';
@@ -28,7 +28,7 @@ const ExistingPatientWorkflow = ({ patient, onPatientUpdate, userRole }) => {
     const [loading, setLoading] = useState(false);
     const [showTreatmentHistory, setShowTreatmentHistory] = useState(false);
     const treatmentHistory = mockPatientData[patient.id]?.treatmentPlan ? [mockPatientData[patient.id].treatmentPlan] : [];
-    const [showFullPatientDetails, setShowFullPatientDetails] = useState(false); // New state for toggling full details
+    //const [showFullPatientDetails, setShowFullPatientDetails] = useState(false); // New state for toggling full details
     const [drugsGiven, setDrugsGiven] = useState([]);
 
     const handleDrugStatusChange = useCallback((index, status) => {
