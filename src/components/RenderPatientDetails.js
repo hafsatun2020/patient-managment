@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { format, isValid } from 'date-fns';
-import mockPatientData from './mockPatientData';
 /**
  * Renders patient demographic details.
  */

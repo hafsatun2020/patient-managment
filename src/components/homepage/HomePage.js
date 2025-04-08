@@ -4,15 +4,8 @@ import { LogOut } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import './HomePage.css'; //  You can keep the shared styles here
 import LoginPage from '../LoginPage';
-import { PatientSearch } from '../PatientSearch'; // Import the components
-import { PatientAdmission } from '../PatientAdmission';
-import { TreatmentPlan } from '../RenderTreatmentPlan';
-import PatientOverview from './PatientOverview';
-import PatientList from './PatientList';
-import NewPatientSection from './NewPatientSection';
-import PatientDetailsSection from './PatientDetailsSection';
 import mockPatientData from '../mockPatientData';
-import { DrugAdministration, PatientStatus, AdminDrugStatus } from '../drugAdmin'; // Import the components
+import { AdminDrugStatus } from '../drugAdmin'; // Import the components
 import AdminDashboard from './admindashboard';
 import JuniorDoctorDashboard from "./juniorDoc";
 // ===============================

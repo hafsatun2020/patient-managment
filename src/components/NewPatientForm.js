@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { format } from 'date-fns';
 import './newPatient.css'; // Import the CSS file
-import { Button, TextField, Select, MenuItem, FormControl, InputLabel, Grid, Box, Typography, TextareaAutosize } from '@mui/material';
+import { Button, TextField, Select, Grid, Box, Typography, TextareaAutosize } from '@mui/material';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { styled } from '@mui/material/styles';
-import { motion } from 'framer-motion';
 
 // Mock API function (You should replace this with your actual API calls)
 const mockSaveNewPatient = async (patientData) => {

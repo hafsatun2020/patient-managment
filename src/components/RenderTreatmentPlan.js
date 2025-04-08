@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Button, TextField, Table, TableBody, TableCell, TableHead, TableRow, Paper } from '@mui/material';
-import { Input } from 'postcss';
-import NewPatientForm from './NewPatientForm'; // Assuming this is in the same directory
+import { Button } from '@mui/material';
 import TreatmentPlanFormLogic from './TreatmentPlanFormLogic'; // Import the TreatmentPlanFormLogic
 
 // Mock API functions (Replace with your actual API calls)
